@@ -11,6 +11,14 @@
 
         <div>
         </div>
+        <p style="margin-left: 840px">
+&nbsp;&nbsp;&nbsp;
+        </p>
+        <p style="margin-left: 840px">
+            &nbsp;</p>
+        <div style="margin-left: 200px">
+            <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Button" />
+        </div>
     </form>
 </body>
 </html>
