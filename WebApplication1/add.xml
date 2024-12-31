@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Advertisements>
+<Ad>
+	<ImageUrl>baps.jpg</ImageUrl>
+	<Keyword>technology , c, c#</Keyword>
+	<NavigateUrl>https://www.google.co.in/</NavigateUrl>
+	<AlternateText>baps</AlternateText>
+	<Impression>3</Impression>
+</Ad>
+
+<Ad>
+		<ImageUrl>1.png</ImageUrl>
+		<Keyword>technology , c, c#</Keyword>
+		<NavigateUrl>https://www.google.co.in/</NavigateUrl>
+		<AlternateText>disney</AlternateText>
+		<Impression>3</Impression>
+</Ad>
+</Advertisements>
