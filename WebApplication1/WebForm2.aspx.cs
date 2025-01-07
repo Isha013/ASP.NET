@@ -18,14 +18,22 @@ namespace WebApplication1
         {
             if (FileUpload1.HasFile)
             {
-                string fileName = FileUpload1.FileName;
-                FileUpload1.SaveAs(Server.MapPath("~/Uploads/") + fileName);
-                Label1.Text = "File uploaded successfully!";
+                try
+                {
+                    string fileName = FileUpload1.FileName;
+                    FileUpload1.SaveAs(Server.MapPath("~/FILES/") + fileName);
+                    Label1.Text = "File uploaded successfully!";
+                }
+                catch (Exception ex)
+                {
+                    Label1.Text = "Error: " + ex.Message;
+                }
             }
             else
             {
                 Label1.Text = "Please select a file to upload!";
             }
+            }
         }
     }
-}
+
